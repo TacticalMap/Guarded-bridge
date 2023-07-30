@@ -1,0 +1,35 @@
+{
+  "name": "tacticalmap-p77",
+  "id": "tacticalmap-p77",
+  "title": "TM Guarded bridge",
+  "description": "A guarded stone bridge over a deep river. And also a natural version where the bridge is a fallen tree. As well as assets of a ballista, a fallen cart and a siege shield.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "guarded-bridge",
+      "label": "TM Guarded bridge",
+      "path": "packs/guarded-bridge.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "guarded-bridge",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://github.com/TacticalMap/Maps/blob/main/module.json",
+  "download": "https://github.com/TacticalMap/Maps/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
